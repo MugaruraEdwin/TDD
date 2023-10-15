@@ -1,0 +1,28 @@
+const chai = require('chai');
+const Multiply = require('../javascript/checker');
+
+const myObj = new Multiply();
+
+const { assert } = chai;
+
+describe('Multilpy test', () => {
+  it('It should multiply two arguments', () => {
+    assert.strictEqual(myObj.multiply(1, 1), 1);
+  });
+
+  it('It should multiply two arguments', () => {
+    assert.strictEqual(myObj.multiply(2, 2), 4);
+  });
+
+  it('It should multiply two arguments', () => {
+    assert.strictEqual(myObj.multiply(3, 3), 9);
+  });
+
+  it('It should multiply two arguments', () => {
+    assert.strictEqual(myObj.multiply(4, 4), 16);
+  });
+
+  it('It should multiply two arguments', () => {
+    assert.strictEqual(myObj.multiply(23, 45), 23 * 45);
+  });
+});
