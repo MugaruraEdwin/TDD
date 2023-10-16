@@ -1,3 +1,5 @@
+// Names: Mugarura Edwin Musumba + Nakamatte Winfred Claire
+
 class Multiply {
   multiply(arg1, arg2) {
     // const result;
