@@ -5,7 +5,7 @@ const myObj = new Multiply();
 
 const { assert } = chai;
 
-describe('Multilpy test', () => {
+describe('Multilpy test suit', () => {
   // First Test
   it('It should multiply two arguments', () => {
     assert.strictEqual(myObj.multiply(1, 1), 1);
