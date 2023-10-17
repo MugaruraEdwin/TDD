@@ -41,6 +41,8 @@
 
 // console.log(nextFibonacci(0));
 
+// Mugarura Edwin Musumba + Nakamatte Winfred Claire
+
 class Fibonacci {
   fibonacci(n) {
     const phi = (1 + Math.sqrt(5)) / 2;
