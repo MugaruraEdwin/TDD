@@ -41,6 +41,12 @@
 
 // console.log(nextFibonacci(0));
 
+// if (n <= 1) return n;
+// else{
+//     var result = (n - 1) + (n - 2);
+//     return result
+// }
+
 // Mugarura Edwin Musumba + Nakamatte Winfred Claire
 
 class Fibonacci {
