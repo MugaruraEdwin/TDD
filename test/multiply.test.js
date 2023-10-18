@@ -1,4 +1,5 @@
 const chai = require('chai');
+
 const Multiply = require('../javascript/multiply');
 
 const myObj = new Multiply();
